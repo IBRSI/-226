@@ -33,6 +33,10 @@ for n in num:
         break
 print(c)'''
 
+#5
+'''n= input()[::-1]
+print(n)'''
+
 # 6
 '''a = input()
 c = False
