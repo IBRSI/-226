@@ -38,7 +38,7 @@ print(c)'''
 print(n)'''
 
 # 6
-'''a = input()
+'''b = input()
 c = False
 for i in range(0, len(a)-1):
     if b[i] == b[i+1]:
