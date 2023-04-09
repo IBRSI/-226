@@ -29,15 +29,9 @@ def function(nums,):
 function([1,2,3,3,3,3,3])
 
 #4
-def sum(lst):
-    total = 0
-    for element in lst:
-        if (type(element) == type([])):
-            total = total  + sum(element)
-        else:
-            total = total + element
-    return total
-print('Сумма элементов равна:', sum([[1,2],[3,4]]))
+x = [[1,2,3],[4,5,6],[7,8,9]]
+y = [sum(i) for i in x]
+print(y)
 
 #5
 def sequence(lst):
